@@ -1,0 +1,919 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  
+}
+/*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/
+/*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/
+nav {
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  width: auto;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 0px 5px 0 #cecece;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  align-items: center;
+  margin: 0 128px 0 128px;
+  width: 1015px;
+  height: 70px;
+}
+.logodocplanner {
+  display: flex;
+  margin-left: 20px;
+  margin-top: -7px;
+  width: 268px;
+  height: 58px;
+}
+
+.NavBar ul {
+  font-family: "roboto", arial, sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  margin: 0px 20px 0px 20px;
+  padding: 20px 0px 20px 0px;
+}
+
+.NavBar li {
+  list-style: none;
+}
+.NavBar a {
+  text-decoration: none;
+  color: #ababab;
+  line-height: 30px;
+  height: 30px;
+}
+.NavBar :hover {
+  color: #00b39b;
+}
+
+/*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/
+/*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/ /*NavBar*/
+/*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/
+/*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/
+.section1 {
+  margin: 33px 138px 54px 128px;
+  padding: 70px 20px 0px 20px;
+  max-width: 1015px;
+}
+
+.icon img {
+  align-items: center;
+  max-width: 100%;
+  margin-left: 467px;
+}
+.slogan h1 {
+  font-family: "lato", Arial, sans-serif;
+  margin: 30px 0px 34px 0px;
+  text-align: center;
+  color: #00b39b;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 44.2px;
+}
+
+.section1-p {
+  display: flex;
+  justify-content: center;
+  color: #747474;
+  line-height: 21px;
+}
+.section1-p2 {
+  font-family: "roboto", arial, sans-serif;
+  line-height: 28px;
+  padding: 10px 0px 10px 10px;
+}
+.section1-p1 {
+  font-family: "roboto", arial, sans-serif;
+  line-height: 28px;
+  padding: 10px 10px 10px 0px;
+}
+
+/*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/
+/*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/ /*Section1*/
+/*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/
+/*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/
+.section2 {
+  margin: 0px 128px 47px 128px;
+  padding: 0px 20px 0px 20px;
+  max-width: 1015px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2-structure {
+  padding: 10px;
+}
+
+.section2 h1 {
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+.section2 img {
+  margin-bottom: 4.5px;
+}
+
+.section2 h2 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.section2 select {
+}
+
+.patients {
+  font-family: "lato", Arial, sans-serif;
+  padding: 32px 32px 0px 32px;
+  background-color: #00ccb1;
+  color: white;
+  width: 248px;
+  height: 313px;
+  border-radius: 10px;
+}
+.doctors {
+  font-family: "lato", Arial, sans-serif;
+  padding: 32px 32px 0px 32px;
+  background-color: #3d83df;
+  color: white;
+  border-radius: 10px;
+  width: 248px;
+  height: 313px;
+}
+.clinics {
+  font-family: "lato", Arial, sans-serif;
+  padding: 32px 32px 0px 32px;
+  background-color: #1b2734;
+  color: white;
+  border-radius: 10px;
+  width: 248px;
+  height: 313px;
+}
+.section2-structure :hover {
+  filter: brightness(110%);
+}
+.section2-structure select {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.section2-structure select option {
+  color: black;
+  font-size: 16.5px;
+}
+
+.section2-select-clinics {
+  margin-top: 46px;
+  height: 100px;
+}
+.section2-select-doctors {
+  margin-top: 88px;
+  height: 40px;
+}
+.section2-select-patients {
+  margin-top: 88px;
+  height: 40px;
+}
+/*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/
+/*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/ /*Section2*/
+/*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/
+/*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/
+.section3 {
+  height: 120px;
+  display: flex;
+  margin: -8px 128px 50px 147px;
+}
+.section3 h1 {
+  color: #00b39b;
+  font-weight: 50;
+  line-height: 35px;
+  font-size: 26px;
+  height: 102px;
+  letter-spacing: 1.5px;
+  width: 300px;
+  margin: 0px;
+}
+.section3-brands {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  width: 650px;
+  height: 103px;
+  margin: 5px 0px 0px 0px;
+  line-height: 20px;
+  padding: 0px;
+}
+.section3-brands a:hover {
+    color: #00b39b;
+}
+
+.section3-brands ul:link {
+    text-decoration: none;
+  }
+.section3-brands ul:visited {
+    text-decoration: none;
+  }
+.section3-brands ul:hover {
+    text-decoration: underline;
+  }
+.section3-brands ul:active {
+    text-decoration: none;
+  }
+
+
+.section3-brands li {
+  margin-left: 0px;
+  text-align: center;
+}
+.section3-brands a {
+  padding: 0px 0px 5px 5px;
+}
+
+.section3-brands svg {
+  padding: 0px 0px 0px 10px;
+  width: 125px;
+}
+
+/*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/
+/*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/ /*Section3*/
+/*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/
+/*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/
+.section4 {
+  position: absolute;
+  background-color: #d7f8f5;
+  width: 1270px;
+  height: 600px;
+  margin: -17px 0px 0px 0px;
+}
+.section4 p {
+  color: #747470;
+  font-family: "roboto", arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+.section4 h1 {
+  color: #00b39b;
+  font-family: "roboto", arial, sans-serif;
+  line-height: 45px;
+  font-weight: 300;
+}
+.section4 h3 {
+  color: #00b39b;
+  font-family: "roboto", arial, sans-serif;
+  font-size: 25px;
+  line-height: 26px;
+  font-weight: 300;
+}
+.section4 img {
+  position: absolute;
+  width: 475px;
+  height: 340px;
+  top: 263px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.contenu-section4 {
+  position: absolute;
+  width: 995px;
+  height: 560px;
+  margin: 30px 60px 10px 137px;
+}
+.section4-intro {
+  position: absolute;
+  margin-top: 32px;
+  width: 498px;
+  height: 201px;
+}
+.section4-intro h1 {
+  position: absolute;
+  width: 477px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 88px;
+}
+.section4-intro p {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 10px;
+  width: 415px;
+  height: 48px;
+  line-height: 23px;
+}
+
+.section4-leader {
+  position: absolute;
+  background-color: white;
+  width: 228px;
+  height: 250px;
+  margin-left: 509px;
+  margin-top: 17px;
+  border-radius: 5px;
+  box-shadow: 0 0px 2px 0 #cecece;
+}
+.section4-appointments {
+  position: absolute;
+  background-color: white;
+  width: 228px;
+  height: 250px;
+  margin-left: 757px;
+  margin-top: -12.5px;
+  border-radius: 5px;
+  box-shadow: 0 0px 2px 0 #cecece;
+}
+.section4-patients {
+  position: absolute;
+  background-color: white;
+  width: 228px;
+  height: 250px;
+  margin-left: 509px;
+  margin-top: 287px;
+  border-radius: 5px;
+  box-shadow: 0 0px 2px 0 #cecece;
+}
+.section4-doctors {
+  position: absolute;
+  background-color: white;
+  width: 228px;
+  height: 250px;
+  margin-left: 757px;
+  margin-top: 257px;
+  border-radius: 5px;
+  box-shadow: 0 0px 2px 0 #cecece;
+}
+
+.section4-leader img {
+  top: 27px;
+  left: 96px;
+  width: 35px;
+  height: 40px;
+}
+.section4-appointments img {
+  top: 51px;
+  left: 94px;
+  width: 40px;
+  height: 40px;
+}
+.section4-patients img {
+  top: 55px;
+  left: 93px;
+  width: 40px;
+  height: 32px;
+}
+.section4-doctors img {
+  top: 51px;
+  left: 94px;
+  width: 40px;
+  height: 40px;
+}
+
+.section4-leader h3 {
+  position: absolute;
+  top: 60px;
+  left: 47px;
+  text-align: center;
+}
+.section4-leader p {
+  position: absolute;
+  top: 135px;
+  text-align: center;
+}
+.section4-appointments h3 {
+  position: absolute;
+  top: 87px;
+  left: 40px;
+  text-align: center;
+}
+.section4-appointments p {
+  position: absolute;
+  top: 168px;
+  left: 55px;
+  text-align: center;
+}
+.section4-patients h3 {
+  position: absolute;
+  top: 87px;
+  left: 54px;
+  text-align: center;
+}
+.section4-patients p {
+  position: absolute;
+  top: 165px;
+  left: 20px;
+  text-align: center;
+}
+.section4-doctors h3 {
+  position: absolute;
+  top: 87px;
+  left: 40px;
+  text-align: center;
+}
+.section4-doctors p {
+  position: absolute;
+  top: 168px;
+  left: 60px;
+  text-align: center;
+}
+/*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/
+/*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/ /*Section4*/
+/*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/
+/*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/
+.section5 {
+  margin-top: 720px;
+  margin-left: 128px;
+  margin-right: 128px;
+}
+.intro-section5 {
+  margin: 0px 20px -3px 280px;
+  width: 460px;
+  text-align: center;
+}
+
+.intro-section5 p {
+  color: #747470;
+  font-family: "roboto", arial, sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  height: 72px;
+}
+.intro-section5 h1 {
+  color: #00b39b;
+  font-family: "roboto", arial, sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 300;
+  height: 78px;
+}
+.Warsaw {
+  display: flex;
+  background-color: white;
+  width: 311px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 0px 0.9px 0 #cecece;
+}
+.Barcelona {
+  display: flex;
+  background-color: white;
+  width: 311px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 0px 0.9px 0 #cecece;
+}
+.Munich {
+  display: flex;
+  background-color: white;
+  width: 311px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 0px 0.9px 0 #cecece;
+}
+.Istanbul {
+  display: flex;
+
+  margin-top: 25px;
+  background-color: white;
+  width: 311px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 0px 0.9px 0 #cecece;
+}
+.Rome {
+  display: flex;
+
+  margin-top: 25px;
+  background-color: white;
+  width: 311px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 0px 0.9px 0 #cecece;
+}
+.Bologna {
+  display: flex;
+
+  margin-top: 25px;
+  background-color: white;
+  width: 311px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 0px 0.9px 0 #cecece;
+}
+.Curitiba {
+  display: flex;
+
+  margin-top: 25px;
+  background-color: white;
+  width: 311px;
+  height: 350px;
+  box-shadow: 0 0px 0.9px 0 #cecece;
+  border-radius: 5px;
+}
+.Mexico-City {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 25px;
+  background-color: white;
+  width: 311px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 0px 0.9px 0 #cecece;
+}
+.lol {
+  display: flex;
+
+  margin-top: 25px;
+  background-color: white;
+  width: 311px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.section5-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 83px;
+}
+
+.Warsaw img {
+  width: max-content;
+  height: 280px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Barcelona img {
+  width: max-content;
+  height: 280px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Munich img {
+  width: max-content;
+  height: 280px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Istanbul img {
+  width: max-content;
+  height: 280px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Rome img {
+  width: max-content;
+  height: 280px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Bologna img {
+  width: max-content;
+  height: 280px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Curitiba img {
+  width: max-content;
+  height: 280px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Mexico-City img {
+  width: max-content;
+  height: 280px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Warsaw h3{
+
+  font-family: "roboto", arial, sans-serif;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgb(136, 136, 136);
+  margin-top: 310px;
+  margin-left: -290px ;
+}
+.Barcelona h3{
+  font-family: "roboto", arial, sans-serif;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgb(136, 136, 136);
+  margin-top: 310px;
+  margin-left: -290px ;
+}
+.Munich h3{
+  font-family: "roboto", arial, sans-serif;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgb(136, 136, 136);
+  margin-top: 310px;
+  margin-left: -290px ;
+}
+.Istanbul h3{
+  font-family: "roboto", arial, sans-serif;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgb(136, 136, 136);
+  margin-top: 310px;
+  margin-left: -290px ;
+}
+.Rome h3{
+  font-family: "roboto", arial, sans-serif;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgb(136, 136, 136);
+  margin-top: 310px;
+  margin-left: -290px ;
+}
+.Bologna h3{
+  font-family: "roboto", arial, sans-serif;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgb(136, 136, 136);
+  margin-top: 310px;
+  margin-left: -290px ;
+}
+.Curitiba h3{
+  font-family: "roboto", arial, sans-serif;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgb(136, 136, 136);
+  margin-top: 310px;
+  margin-left: -290px ;
+}
+.Mexico-City h3{
+  font-family: "roboto", arial, sans-serif;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgb(136, 136, 136);
+  margin-top: 310px;
+  margin-left: -290px ;
+  width: 200px;
+}
+.Warsaw a{
+  position: absolute;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 310px;
+  height: 350px;
+}
+.Barcelona a{
+  position: absolute;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 310px;
+  height: 350px;
+}
+.Munich a{
+  position: absolute;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 310px;
+  height: 350px;
+}
+.Istanbul a{
+  position: absolute;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 310px;
+  height: 350px;
+}
+.Rome a{
+  position: absolute;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 310px;
+  height: 350px;
+}
+.Bologna a{
+  position: absolute;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 310px;
+  height: 350px;
+}
+.Curitiba a{
+  position: absolute;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 310px;
+  height: 350px;
+}
+.Mexico-City a{
+  position: absolute;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 310px;
+  height: 350px;
+}
+
+.Warsaw b{
+
+  background-color: #3d83df;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 14px 18px 14px 18px;
+  position: absolute;
+  top: 295px;
+  left: 170px;
+}
+
+.Barcelona b{
+
+  background-color: #3d83df;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 14px 18px 14px 18px;
+  position: absolute;
+  top: 295px;
+  left: 170px;
+}
+
+.Munich b{
+
+  background-color: #3d83df;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 14px 18px 14px 18px;
+  position: absolute;
+  top: 295px;
+  left: 170px;
+}
+
+.Istanbul b{
+
+  background-color: #3d83df;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 14px 18px 14px 18px;
+  position: absolute;
+  top: 295px;
+  left: 170px;
+}
+
+.Rome b{
+
+  background-color: #3d83df;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 14px 18px 14px 18px;
+  position: absolute;
+  top: 295px;
+  left: 170px;
+}
+
+.Bologna b{
+
+  background-color: #3d83df;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 14px 18px 14px 18px;
+  position: absolute;
+  top: 295px;
+  left: 170px;
+}
+
+.Curitiba b{
+
+  background-color: #3d83df;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 14px 18px 14px 18px;
+  position: absolute;
+  top: 295px;
+  left: 170px;
+}
+
+.Mexico-City b{
+
+  background-color: #3d83df;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 14px 18px 14px 18px;
+  position: absolute;
+  top: 295px;
+  left: 170px;
+}
+
+.section5-imgs div :hover{
+  box-shadow: 0 0 50px 0px rgba(33,33,33,.2); 
+
+}
+/*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/
+/*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/ /*Section5*/
+/*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/
+/*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/
+.section6 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 1015px;
+  height: 101.5px;
+  margin: 90px 128px 80px 128px;
+  line-height: 39px;
+  font-family: "roboto", arial, sans-serif;
+}
+.section6-contenu {
+  height: 101.5px;
+  width: 520px;
+}
+.section6 a {
+  background-color: #3d83df;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 14px 18px 14px 18px;
+  letter-spacing: 1px;
+}
+.section6 h1 {
+  margin-top: 0px;
+  font-weight: 300;
+}
+/*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/
+/*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/ /*Section6*/
+/*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/
+/*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/
+.section7 {
+  height: 123px;
+  box-shadow: 0 0px 1px 0 #cecece;
+}
+.contenu-section7 {
+  font-family: "roboto", arial, sans-serif;
+
+  height: 89px;
+  width: 1015px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 35px 128px 0px 128px;
+  color: #747470;
+  font-size: 12px;
+}
+.contenu-section7 a:link {
+  text-decoration: none;
+}
+.contenu-section7 a:visited {
+  text-decoration: none;
+}
+.contenu-section7 a:hover {
+  text-decoration: underline;
+}
+.contenu-section7 a:active {
+  text-decoration: none;
+}
+.section7 p {
+    margin-top: 0px;
+}
+/*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/
+/*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/ /*section7*/
